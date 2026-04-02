@@ -1,0 +1,23 @@
+# E-Commerce Backend (Spring Boot)
+
+## Features
+- User Authentication (Register/Login)
+- Product Management
+- Cart Management
+- Order Processing
+
+## Tech Stack
+- Spring Boot
+- MySQL
+- JPA/Hibernate
+
+## How to Run
+1. Create database: ecommerce_db
+2. Update application.properties
+3. Run project:
+   mvn spring-boot:run
+
+## API Endpoints
+POST /auth/register  
+POST /auth/login  
+GET /products  
